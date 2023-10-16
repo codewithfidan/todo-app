@@ -7,4 +7,6 @@ Drink
 Prepare A Dinner
 Get Up
 Take A Shower
-Take Suplements
+Take Supplements
+Write an Email
+Make A Call
