@@ -6,15 +6,12 @@ gui.theme("Purple")
 clock = gui.Text(time.strftime("%d.%m.%Y, %A"))
 label = gui.Text("Type in a to-do")
 input_box = gui.InputText(tooltip="Enter to-do", key="todo")
-add_button = gui.Button("Add")
-list_box = gui.Listbox(values=functions.get_todos(),
-                       key="todos",
-                       enable_events=True,
-                       size=(44, 10))
+add_button = gui.Button("Add", mouseover_colors="LightBlue2")
+list_box = gui.Listbox(values=functions.get_todos(), key="todos", enable_events=True, size=(44, 10))
 
-edit_button = gui.Button("Edit")
-complete_button = gui.Button("Complete")
-exit_button = gui.Button("Exit")
+edit_button = gui.Button("Edit", mouseover_colors="LightBlue2")
+complete_button = gui.Button("Complete", mouseover_colors="LightBlue2")
+exit_button = gui.Button("Exit", mouseover_colors="LightBlue2")
 
 layout = [[clock],
           [label],
